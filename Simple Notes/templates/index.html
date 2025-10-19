@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Notes</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Simple Notes</h1>
+    <p class="muted">Add a note, see it appear. Click × to delete.</p>
+    <form id="note-form">
+      <input id="note-input" type="text" placeholder="Write a quick note…" maxlength="280" required />
+      <button type="submit">Add</button>
+    </form>
+    <ul id="notes"></ul>
+  </main>
+  <script src="/static/main.js"></script>
+</body>
+</html>

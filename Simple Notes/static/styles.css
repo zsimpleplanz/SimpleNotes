@@ -1,0 +1,18 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #121826;
+  --text: #e8eef6;
+  --muted: #98a2b3;
+  --accent: #4f7cff;
+  --danger: #ff5d5d;
+}
+body { font-family: system-ui; background: var(--bg); color: var(--text); }
+.container { max-width: 700px; margin: 40px auto; background: var(--panel); padding: 20px; border-radius: 10px; }
+form { display: flex; gap: 10px; }
+input { flex: 1; padding: 10px; border-radius: 6px; border: none; }
+button { padding: 10px 14px; background: var(--accent); border: none; color: white; border-radius: 6px; cursor: pointer; }
+button:hover { filter: brightness(1.1); }
+#notes { list-style: none; padding: 0; }
+.note-item { background: #0f1624; margin: 10px 0; padding: 10px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+.delete { background: transparent; color: var(--danger); border: none; font-size: 20px; cursor: pointer; }
+.delete:hover { color: white; }
