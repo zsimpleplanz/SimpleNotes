@@ -1,6 +1,7 @@
 # SimpleNotes
 Video Demo: (https://www.youtube.com/watch?v=7OwIYNpOutc)>
-Description:
+
+
 Introduction
 Simple Notes is a lightweight, web-based note-taking application that I developed as my Final Project for CS50x, Harvard University’s Introduction to Computer Science. The main goal of this project was to create something small, easy to understand, and functional that demonstrates the three core layers of full-stack web development: the frontend, the backend, and the database.
 
